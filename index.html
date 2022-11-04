@@ -57,6 +57,22 @@
             riddle("У квадратного стола отпилили один угол. Сколько теперь углов у него стало?")
         }
 
+        {
+            let duck = {
+                name: 'Дональд',
+                color: 'белый',
+                age: '1',
+                toStr: function() {
+                    console.log(`${this.name}, ${duck.color}, ${duck.age}`);
+                },
+                say: function () {
+                    console.log('кря кря');
+                }
+            }
+            duck.toStr()
+            duck.say()
+        }
+
     </script>
     <title>Title</title>
 </head>
